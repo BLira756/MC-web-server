@@ -22,4 +22,17 @@ Un servidor web en un ESP32 permite recibir y responder peticiones HTTP, lo que 
 
 Este tipo de servidor puede funcionar de dos maneras principales: conectándose a una red Wi-Fi existente como cliente o creando su propio punto de acceso (AP), permitiendo que otros dispositivos se conecten a él. Utilizando bibliotecas como ESPAsyncWebServer o WebServer, es posible definir rutas HTTP personalizadas que respondan a comandos específicos, mostrando contenido en HTML, manejando formularios o devolviendo datos en formato JSON.
 
+Sensor MPU6050
+
+El MPU6050 es un sensor avanzado que combina un acelerómetro y un giroscopio de 3 ejes en un solo módulo, lo que permite medir tanto la aceleración lineal como la rotación angular de un objeto en el espacio. Además, cuenta con un procesador de movimiento digital (DMP) incorporado, lo que facilita la captura de datos precisos y la fusión de sensores para aplicaciones que requieren control de movimiento y orientación.
+
+Aplicaciones del sensor
+
+Estabilización de drones y robótica: Ayuda a mantener el equilibrio y la orientación.
+
+Controles de juegos y realidad virtual: Permite el seguimiento de movimientos precisos.
+
+Podómetros y wearables: Monitorea la actividad física detectando cambios en aceleración.
+
+Vehículos autónomos: Utilizado en sistemas de navegación inercial para estimar la posición en ausencia de GPS.
 
